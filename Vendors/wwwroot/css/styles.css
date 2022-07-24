@@ -1,0 +1,27 @@
+
+div#footer {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:8px;
+}
+
+body#body {
+  background-color: lavenderblush;
+}
+
+div#new {
+  background-color: lavender;
+}
+
+div#index {
+  background-color: aliceblue;
+  padding-bottom: 100%;
+}
+
+div#show {
+  background-color: mintcream;
+}

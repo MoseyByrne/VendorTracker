@@ -7,7 +7,7 @@ namespace Vendors.Controllers
   public class OrdersController : Controller
   {
 
-    [HttpGet("/vendors/{vendorId}/order/new")]
+    [HttpGet("/vendors/{vendorId}/orders/new")]
     public ActionResult New(int vendorId)
     {
       Vendor vendor = Vendor.Find(vendorId);
@@ -15,7 +15,7 @@ namespace Vendors.Controllers
     }
 
 
-    [HttpGet("/vendors/{vendorId}/order/{orderId}")]
+    [HttpGet("/vendors/{vendorId}/orders/{orderId}")]
     public ActionResult Show(int vendorId, int orderId)
     {
       Order order = Order.Find(orderId);

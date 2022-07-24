@@ -5,23 +5,35 @@ div#footer {
 	left:0px;
 	width:100%;
 	color:#CCC;
-	background:#333;
+	background:rgb(249, 4, 143);
 	padding:8px;
 }
 
 body#body {
-  background-color: lavenderblush;
+  background-color: darkred;
+	background-image: linear-gradient(white, indigo, goldenrod, darkred, black);
+	padding-top: 15%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-bottom: 25%;
+
 }
 
 div#new {
   background-color: lavender;
+	text-align: center;
+	margin: 5%;
 }
 
 div#index {
-  background-color: aliceblue;
-  padding-bottom: 100%;
+  background-color: lavender;
+  padding-bottom: 15%;
+	padding-top: 10%;
+	text-align: center;
+	
 }
 
 div#show {
-  background-color: mintcream;
+  background-color: lavender;
+	padding: 10%;
 }

@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using ToDoList.Models;
+using Vendors.Models;
 using System.Collections.Generic;
 
 namespace Vendors.Controllers
@@ -14,12 +14,6 @@ namespace Vendors.Controllers
       return View(vendor);
     }
 
-    [HttpPost("/order/delete")]
-    public ActionResult DeleteAll()
-    {
-      Order.ClearAll();
-      return View();
-    }
 
     [HttpGet("/vendors/{vendorId}/order/{orderId}")]
     public ActionResult Show(int vendorId, int orderId)
